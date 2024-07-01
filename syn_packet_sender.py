@@ -2,7 +2,7 @@ import socket
 import time
 
 # Define the target host and ports for port knocking
-host = '192.168.56.113'
+host = ''
 ports = [2201, 2211, 2234]
 knock_sequence = [(host, port) for port in ports]
 
